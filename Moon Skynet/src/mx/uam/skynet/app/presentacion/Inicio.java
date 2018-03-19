@@ -130,7 +130,8 @@ public class Inicio extends JFrame {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		table.setEnable(false);
+		table.setForeground(Color.BLACK)
 		
 		
 		
