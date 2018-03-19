@@ -83,6 +83,8 @@ public class HistorialClinico extends JFrame {
 		 	try{
 		 		while(rs.next()){
 		 			dfm.addRow(new Object[]{rs.getInt("cita_fol_paciente"),rs.getString("fh_ult_cita"),rs.getString("descripcion"), rs.getString("tratamiento"), rs.getString("fh_prox_cita")});
+					jTable2.setEnabled(false);
+		 			jTable2.setForeground(Color.BLACK);					
 		 		}
 		 	}
 		 	catch(Exception e){
